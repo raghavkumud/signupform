@@ -1,0 +1,82 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <title>Simple Sign Up Form Using Bootstrap</title>
+    <link
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0-beta1/dist/css/bootstrap.min.css"
+      rel="stylesheet"
+      integrity="sha384-0evHe/X+R7YkIZDRvuzKMRqM+OrBnVFBL6DOitfPri4tjfHxaWutUpFmBp4vmVor"
+      crossorigin="anonymous"
+    />
+    <link rel="stylesheet" href="./index.css">
+  </head>
+  <body>
+    <script
+      src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0-beta1/dist/js/bootstrap.bundle.min.js"
+      integrity="sha384-pprn3073KE6tl6bjs2QrFaJGz5/SUsLqktiwsUTF55Jfv3qYSDhgCecCxMW52nD2"
+      crossorigin="anonymous"
+    ></script>
+    <div class="container mt-2 p-5 shadow">
+      <form method="get" class="ctn mx-auto">
+      <div class="row col-5 col-sm-4 col-lg-3 bg-success row_item3 mt-3 mb-4 text-black mx-auto fw-bold fs-5 shadow-sm rounded" >
+        <p
+        class="text-center my-auto">Sign Up
+
+        </p></div>
+        <div class="row mt-3 mb-3 row_item mb-3 mt-3">
+          <label class="d-flex align-items-center col-sm-12 col-lg-6 fs-5 fw-normal shadow-sm medf">
+            Name:</label>
+          <input class="col-sm-12 col-lg-6 shadow-sm bg-light border border-none medf outline_sky_blue" type="text" />
+        </div>
+        <div class="row row_item mb-3 mt-3">
+          <label class="d-flex align-items-center col-sm-12 col-lg-6 shadow-sm fw-normal fs-5">Age:</label>
+          <input class="col-sm-12 col-lg-6 shadow-sm bg-light border border-none medf outline_sky_blue" type="number" />
+        </div>
+        <div class="row row_item2 mb-3 mt-3">
+          <label class="d-flex align-items-center col-sm-12 col-lg-6 fs-5 fw-normal shadow-sm medf">Gender:</label>
+          <input
+            class="col-3 col-sm-1 col-lg-1 bg-light border border-primary my-auto" 
+            type="checkbox"
+            name="male"
+            value="male"
+          />
+          <label class="d-flex align-items-center col-9 col-sm-3 col-lg-1 fs-5 bg-light fw-normal shadow-sm medf">
+            Male
+          </label>
+          <input
+            class="col-3 col-sm-1 col-lg-1 bg-light border border-primary my-auto"
+            type="checkbox"
+            name="female"
+            value="female"
+          />
+          <label class="d-flex align-items-center col-9 col-sm-3 col-lg-1 fs-5 bg-light fw-normal shadow-sm medf">
+            Female
+          </label>
+          <input
+            class="col-sm-1 col-3 col-lg-1 bg-light my-auto medf"
+            type="checkbox"
+            name="other"
+            value="other"
+          />
+          <label class="d-flex align-items-center col-9 col-sm-3 col-lg-1 fs-5 bg-light fw-normal shadow-sm medf ">
+            Other
+          </label>
+        </div>
+        <div class="row row_item mb-3 mt-3">
+          <label class="d-flex align-items-center col-sm-12 col-lg-6 fs-5 fw-normal shadow-sm medf">Email:</label>
+          <input class="col-sm-12 col-lg-6 shadow-sm bg-light border border-none medf outline_sky_blue" type="email" />
+        </div>
+        <div class="row row_item mb-3 mt-3">
+          <label class="d-flex align-items-center col-sm-12 col-lg-6 fs-5 fw-normal shadow-sm medf">Password:</label>
+          <input class="col-sm-12 col-lg-6 shadow-sm bg-light border border-none medf outline_sky_blue"  type="password" />
+        </div>
+        <div class="row row_item3 mb-3 mt-4">
+        <button class="col-5 col-sm-4 col-lg-3 btn btn-primary mx-auto medf" type="submit">
+          Submit
+        </button>
+      </form>
+    </div>
+  </body>
+</html>
